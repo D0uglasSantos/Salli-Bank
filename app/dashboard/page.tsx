@@ -134,15 +134,15 @@ export default function DashboardPage() {
       {/* Header with profile */}
       <div className="flex justify-between items-center mb-4">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">Hello, Matheus</h1>
-          <p className="text-[#4a9ea8]">My wallet</p>
+          <h1 className="text-2xl font-bold tracking-tight">Olá, Matheus</h1>
+          <p className="text-[#4a9ea8]">Minha Carteira</p>
         </div>
         <div className="w-10 h-10 bg-white rounded-full"></div>
       </div>
 
       {/* Wallet card */}
       <div className="bg-gray-700 rounded-2xl p-4 mb-4 shadow-lg">
-        <p className="text-gray-400 text-sm mb-2">AVAILABLE</p>
+        <p className="text-gray-400 text-sm mb-2">Em Conta</p>
         <p className="text-4xl font-bold mb-4">$8,500</p>
         <div className="flex gap-2">
           <button className="bg-gradient-to-r from-[#4cc89f] to-[#175f40] text-white px-6 py-2 rounded-full text-sm shadow-md">
@@ -156,17 +156,17 @@ export default function DashboardPage() {
 
       {/* Transactions */}
       <div className="bg-gradient-to-br from-[#349675] to-[#06344b] rounded-2xl p-4 mb-4">
-        <p className="text-xl mb-2">Today</p>
+        <p className="text-xl mb-2">Hoje</p>
         <div className="flex justify-between items-center mb-2">
-          <p>Purchase</p>
+          <p>Compra</p>
           <p>$2.050.-</p>
         </div>
         <div className="flex justify-between items-center mb-2">
-          <p>Payment</p>
+          <p>Pagamento</p>
           <p>$3.500.-</p>
         </div>
         <div className="flex justify-between items-center">
-          <p>Purchase</p>
+          <p>Compra</p>
           <p>$250.-</p>
         </div>
       </div>
@@ -174,7 +174,7 @@ export default function DashboardPage() {
       {/* Cards section with carousel */}
       <div className="bg-gray-700 rounded-2xl p-4 mb-20 shadow-lg">
         <div className="flex justify-between items-center mb-4">
-          <p className="text-gray-400 text-sm mb-2">MY CARDS</p>
+          <p className="text-gray-400 text-sm mb-2">MEUS CARTÕES</p>
           <div className="flex gap-2">
             <button
               onClick={() => navigateCard("prev")}
